@@ -7,14 +7,13 @@
 
 .tw-hero {
   min-height: 100vh;
-  background-image: url("hero-bg.png"); 
+  background-image: url("hero-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;   
+  background-size: cover;
   background-position: center;
 
   position: relative;
 }
-
 
 body {
   background-color: #0b0219;
@@ -394,7 +393,7 @@ body {
 }
 
 .tw-play-btn::before {
-  content: "▶";
+  /* content: "▶"; */
   font-size: 36px;
   width: 70px;
   height: 70px;
@@ -428,7 +427,6 @@ body {
   justify-content: center;
   gap: 24px;
 }
-
 
 /* Meet the Host */
 .tw-host {
@@ -496,12 +494,10 @@ body {
   );
 }
 
-
 .tw-logo-wrap::before,
 .tw-logo-wrap::after {
   content: none !important;
 }
-
 
 .tw-footer {
   width: 100%;
@@ -511,12 +507,11 @@ body {
   background-position: center;
 }
 
-
 .tw-footer {
   width: 100%;
   min-height: 420px;
   padding: 120px 20px;
-  background-image: url(""); /* 👉 এখানে background image path */
+  background-image: url("footer-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -535,8 +530,6 @@ body {
   color: #ffffff;
   margin-bottom: 24px;
 }
-
-
 
 /* Social icons row */
 .tw-footer-social {
@@ -565,10 +558,6 @@ body {
   color: rgba(255, 255, 255, 0.65);
 }
 
-
-.tw-footer-social{
+.tw-footer-social {
   text-decoration: none;
 }
-
-
-
