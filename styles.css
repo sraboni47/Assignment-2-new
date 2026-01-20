@@ -501,5 +501,63 @@ body {
 }
 
 
+.tw-footer {
+  width: 100%;
+  min-height: 420px;
+  padding: 120px 20px;
+  background-image: url(""); /* 👉 এখানে background image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tw-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Logo */
+.tw-footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.tw-footer-logo span {
+  background: linear-gradient(90deg, #ff2ec4, #7b5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Social icons row */
+.tw-footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 28px;
+}
+
+.tw-footer-social img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+
+.tw-footer-social a:hover img {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+/* Copyright */
+.tw-footer-copy {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+
 
 
