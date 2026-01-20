@@ -525,11 +525,7 @@ body {
   margin-bottom: 24px;
 }
 
-.tw-footer-logo span {
-  background: linear-gradient(90deg, #ff2ec4, #7b5cff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 /* Social icons row */
 .tw-footer-social {
@@ -554,10 +550,14 @@ body {
 
 /* Copyright */
 .tw-footer-copy {
-  font-size: 14px;
+  font-size: 1.15rem;
   color: rgba(255, 255, 255, 0.65);
 }
 
+
+.tw-footer-social{
+  text-decoration: none;
+}
 
 
 
